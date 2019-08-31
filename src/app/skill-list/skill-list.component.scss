@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.25fr));
+  grid-gap: 40px;
+  justify-content: center;
+}
