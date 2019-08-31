@@ -8,6 +8,7 @@ import { HomeComponent } from "./home/home.component";
 import { SkillListComponent } from "./skill-list/skill-list.component";
 import { ProjectListComponent } from "./project-list/project-list.component";
 import { CardComponent } from "./card/card.component";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardComponent } from "./card/card.component";
     HomeComponent,
     SkillListComponent,
     ProjectListComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

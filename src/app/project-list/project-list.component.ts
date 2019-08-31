@@ -116,6 +116,27 @@ export class ProjectListComponent implements OnInit {
         "https://eduard-chat-app.herokuapp.com",
         "https://github.com/EduardMatei0/Chat-App"
       ]
+    },
+    {
+      imageUrl: "https://miro.medium.com/max/1200/1*MeKTEhJAC7Yz10qMCQhPOQ.png",
+      title: "RECIPE JAVASCRIPT PROJECT",
+      description: "A Fictional recipe app using plain javascript",
+      details: ["JAVASCRIPT", "AXIOS", "HTML", "CSS"],
+      links: [
+        "https://recipe-javascript.firebaseapp.com/",
+        "https://github.com/EduardMatei0/Recipe-food"
+      ]
+    },
+    {
+      imageUrl:
+        "https://sites.google.com/site/portofoliovlad1998/_/rsrc/1455985674325/home/portofolio.jpg",
+      title: "MY PORTOFOLIO",
+      description: "About me - Experience and Portofolio",
+      details: ["ANGULAR", "HTML", "CSS", "MOBILE RESPONSIVE"],
+      links: [
+        "https://matei-eduard.firebaseapp.com/",
+        "https://github.com/EduardMatei0/Portofolio"
+      ]
     }
   ];
   constructor() {}
